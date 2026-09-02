@@ -8,7 +8,7 @@
 <table class="w-full bg-gray-800 rounded">
 <tr class="bg-yellow-500 text-black"><th class="p-3">Name</th><th>Phone</th><th>Service</th><th>Date</th><th>Time</th></tr>
 @foreach($bookings as $b)
-<tr class="border-b border-gray-700"><td class="p-3">{{$b->name}}</td><td>{{$b->phone}}</td><td>{{$b->service}}</td><td>{{$b->booking_date}}</td><td>{{$b->booking_time}}</td></tr>
+<tr class="border-b border-gray-700"><td class="p-3">{{$b->name}}</td><td>{{$b->phone}}</td><td>{{$b->service}}</td><td>{{ \Carbon\Carbon::parse($b->booking_date)->format('d/m/Y') }}</td><td>{{$b->booking_time}}</td></tr>
 @endforeach
 </table>
 <p class="mt-5">Total: {{count($bookings)}} bookings</p>
