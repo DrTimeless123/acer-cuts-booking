@@ -25,7 +25,7 @@
         <p class="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">Premium barbing experience for the modern gentleman. Where style meets precision.</p>
         <div class="flex justify-center gap-4">
             <a href="/booking" class="bg-yellow-500 text-black px-8 py-3 rounded-full font-bold text-lg">Book Appointment</a>
-            <a href="/styles" class="...your button class...">View Styles</a>
+            <a href="/styles" class="border border-white text-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-black">View Styles</a>
         </div>
         <div class="mt-12 grid grid-cols-3 gap-4 max-w-3xl mx-auto text-center">
             <div class="bg-zinc-900 p-4 rounded-xl"><h3 class="text-3xl font-bold text-yellow-500">500+</h3><p class="text-sm text-gray-400">Happy Clients</p></div>
