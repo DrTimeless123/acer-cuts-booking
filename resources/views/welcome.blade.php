@@ -61,7 +61,7 @@
 
     <!-- Footer -->
     <footer class="text-center py-8 bg-zinc-900 text-gray-500 text-sm">
-        <p>📍 Ilorin, Kwara State | 📞 0810-XXX-XXXX | © 2026 ACER CUTS</p>
+        <p>📍 Ilorin, Kwara State | 📞 0811-087-3630 | 0702-607-3609 | © 2026 ACER CUTS</p>
     </footer>
 
 </body>
