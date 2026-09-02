@@ -9,3 +9,5 @@ Route::get('/', function () {
 
 Route::get('/booking', [BookingController::class, 'index']);
 Route::post('/booking', [BookingController::class, 'store']);
+use App\Http\Controllers\StyleController;
+Route::get('/styles', [StyleController::class, 'index'])->name('styles');
