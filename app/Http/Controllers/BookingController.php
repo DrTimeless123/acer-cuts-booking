@@ -23,11 +23,7 @@ class BookingController extends Controller
 
         Booking::create($request->all());
 
-        // YOUR WHATSAPP - 07026073609
-        $myNumber = "2347026073609";
-        $message = "🔥 NEW BOOKING! 🔥\nName: {$request->name}\nPhone: {$request->phone}\nService: {$request->service}\nDate: {$request->booking_date}\nTime: {$request->booking_time}";
-        $whatsappLink = "https://wa.me/{$myNumber}?text=" . urlencode($message);
-
-        return redirect()->away($whatsappLink);
+        // Go back home with success message - as you want!
+        return redirect('/')->with('success', 'Booking successful! We go call you soon!');
     }
 }
